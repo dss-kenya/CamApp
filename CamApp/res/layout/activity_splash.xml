@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#88000000" >
+        
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/bg_two"
+            android:alpha="0.3"
+            android:scaleType="centerCrop"/>
+        
+        <!-- <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/shutter"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" /> -->
+        
+        <ImageView
+            android:layout_width="@dimen/icon_dimen"
+            android:layout_height="@dimen/icon_dimen"
+            android:layout_centerInParent="true"
+            android:background="@drawable/image_cam"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+</RelativeLayout>
